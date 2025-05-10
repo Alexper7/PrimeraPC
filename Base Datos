@@ -1,0 +1,28 @@
+BASE DE DATOS
+-- Crear la base de datos
+CREATE DATABASE SistemaReservasDeportivas;
+GO
+
+-- Usar la base de datos creada
+USE SistemaReservaDeportivas;
+GO
+
+-- Crear la tabla Canchas
+CREATE TABLE Canchas (
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    Nombre VARCHAR(100) NOT NULL,    
+    Tipo VARCHAR(50) NOT NULL,      
+    Ubicacion VARCHAR(200) NOT NULL 
+);
+GO
+-- Crear la tabla Reservas
+CREATE TABLE Reservas (
+    Id INT PRIMARY KEY IDENTITY(1,1), 
+    Fecha DATE NOT NULL,             
+    HoraInicio TIME NOT NULL,         
+    HoraFin TIME NOT NULL,           
+    ClienteNombre VARCHAR(100) NOT NULL, 
+    CanchaId INT NOT NULL,          
+    CONSTRAINT FK_Reservas_Canchas FOREIGN KEY (CanchaId) REFERENCES Canchas(Id)
+);
+GO
