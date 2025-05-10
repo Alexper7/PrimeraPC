@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeraPC", "PrimeraPC\PrimeraPC.csproj", "{3CE18E4E-5AE2-4784-9F59-73A830EDACF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeraPC.Core", "PrimeraPC.Core\PrimeraPC.Core.csproj", "{65EA408E-E4BD-4F9A-A4ED-CE8312C0FE92}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CE18E4E-5AE2-4784-9F59-73A830EDACF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CE18E4E-5AE2-4784-9F59-73A830EDACF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CE18E4E-5AE2-4784-9F59-73A830EDACF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CE18E4E-5AE2-4784-9F59-73A830EDACF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65EA408E-E4BD-4F9A-A4ED-CE8312C0FE92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65EA408E-E4BD-4F9A-A4ED-CE8312C0FE92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65EA408E-E4BD-4F9A-A4ED-CE8312C0FE92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65EA408E-E4BD-4F9A-A4ED-CE8312C0FE92}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {62002394-5499-45F2-AF05-F51212605F6E}
+	EndGlobalSection
+EndGlobal

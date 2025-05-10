@@ -1,0 +1,6 @@
+@PrimeraPC_HostAddress = http://localhost:5259
+
+GET {{PrimeraPC_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
