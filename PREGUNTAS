@@ -1,0 +1,11 @@
+a. ¿Qué dificultades tuviste durante el scaffolding y cómo las solucionaste?
+Tuve problemas principalmente con la generación de relaciones entre modelos. Al usar scaffolding, las relaciones tipo uno a muchos o muchos a muchos no se generaban correctamente o no se reflejaban bien en las vistas. Lo solucioné un poco pero no de todo.
+
+b. ¿Qué diferencias notaste entre usar un controlador autogenerado y uno con repository?
+El controlador autogenerado es más rápido de implementar pero tiene lógica acoplada directamente al controlador, lo cual no es muy limpio. En cambio con lo que vi en clase, con repository se separa mejor la lógica de acceso a datos, lo que da más orden y facilita las pruebas unitarias. El controlador con repositorio también me permitió reutilizar métodos y tener más control sobre las consultas a la base de datos.
+
+c. ¿Qué buenas prácticas implementaste (en código real y por qué)?
+Implementé separación de responsabilidades, validaciones del lado servidor para evitar datos inválidos. También documenté el código más complejo con comentarios y usé nombres de variables claros para que el equipo entendiera mejor la lógica.
+
+d. ¿Usaste herramientas de IA en qué parte del proyecto? / ¿Qué herramientas usaste y en qué parte del proyecto?
+Sí, para resolver errores específicos y entender mejor cómo implementar repositorios. También lo usé para generar ejemplos de código con validaciones y consultas complejas. Fue útil cuando me quedaba bloqueado con alguna parte del backend o necesitaba ideas rápidas para mejorar la estructura del código.
